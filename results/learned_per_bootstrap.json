@@ -1,0 +1,2178 @@
+[
+ {
+  "bootstrap": 0,
+  "df_cutoff": 0.2,
+  "df_cutoff_benchmarks": 0.3,
+  "title_scale": 2,
+  "key_scale": 0.5,
+  "combined_scales": {
+   "s": 2,
+   "s_k": 2
+  },
+  "selected_keys": [
+   "power consumption watts power on",
+   "weight",
+   "screen size class",
+   "dynamic contrast ratio",
+   "brightness",
+   "brand",
+   "screen refresh rate",
+   "hdmi inputs",
+   "mount bracket vesa pattern",
+   "maximum resolution"
+  ],
+  "key_groups": [
+   [
+    "brand",
+    "brand name"
+   ],
+   [
+    "hdmi inputs",
+    "hdmi"
+   ],
+   [
+    "mount bracket vesa pattern",
+    "vesa"
+   ],
+   [
+    "power consumption watts power on",
+    "power consumption"
+   ],
+   [
+    "screen refresh rate",
+    "refresh rate"
+   ],
+   [
+    "screen size class",
+    "screen size",
+    "display size"
+   ],
+   [
+    "weight",
+    "weight with stand",
+    "product weight"
+   ]
+  ],
+  "thresholds": {
+   "title_df_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.1,
+    "100x5": 0.1,
+    "83x6": 0.1,
+    "71x7": 0.05,
+    "62x8": 0.05,
+    "55x9": 0.05,
+    "50x10": 0.25,
+    "41x12": 0.05,
+    "35x14": 0.05,
+    "31x16": 0.1,
+    "25x20": 0.1
+   },
+   "keys_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.2,
+    "125x4": 0.2,
+    "100x5": 0.2,
+    "83x6": 0.25,
+    "71x7": 0.15,
+    "62x8": 0.3,
+    "55x9": 0.3,
+    "50x10": 0.25,
+    "41x12": 0.2,
+    "35x14": 0.25,
+    "31x16": 0.2,
+    "25x20": 0.15
+   },
+   "combined_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.15,
+    "100x5": 0.2,
+    "83x6": 0.15,
+    "71x7": 0.2,
+    "62x8": 0.2,
+    "55x9": 0.35,
+    "50x10": 0.25,
+    "41x12": 0.45,
+    "35x14": 0.5,
+    "31x16": 0.25,
+    "25x20": 0.5
+   },
+   "title_mw_plain": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.1,
+    "100x5": 0.1,
+    "83x6": 0.1,
+    "71x7": 0.05,
+    "62x8": 0.1,
+    "55x9": 0.25,
+    "50x10": 0.25,
+    "41x12": 0.2,
+    "35x14": 0.25,
+    "31x16": 0.25,
+    "25x20": 0.25
+   },
+   "no_lsh": {
+    "all pairs": 0.1
+   }
+  },
+  "msm_parameters": {
+   "msmp_msm": {
+    "500x1": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "250x2": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "166x3": {
+     "alpha": 0.7,
+     "gamma": 1.0,
+     "mu": 0.2,
+     "epsilon": 0.6
+    },
+    "125x4": {
+     "alpha": 0.7,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "100x5": {
+     "alpha": 0.7,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "83x6": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.4,
+     "epsilon": 0.7
+    },
+    "71x7": {
+     "alpha": 0.7,
+     "gamma": 1.0,
+     "mu": 0.4,
+     "epsilon": 0.7
+    },
+    "62x8": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "55x9": {
+     "alpha": 0.8,
+     "gamma": 0.7,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "50x10": {
+     "alpha": 0.8,
+     "gamma": 0.7,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "41x12": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.5,
+     "epsilon": 0.9
+    },
+    "35x14": {
+     "alpha": 0.7,
+     "gamma": 0.1,
+     "mu": 0.7,
+     "epsilon": 1.0
+    },
+    "31x16": {
+     "alpha": 0.8,
+     "gamma": 0.5,
+     "mu": 0.5,
+     "epsilon": 0.7
+    },
+    "25x20": {
+     "alpha": 0.0,
+     "gamma": 0.7,
+     "mu": 0.7,
+     "epsilon": 0.3
+    }
+   },
+   "msm_all": {
+    "all pairs": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    }
+   }
+  }
+ },
+ {
+  "bootstrap": 1,
+  "df_cutoff": 0.3,
+  "df_cutoff_benchmarks": 0.2,
+  "title_scale": 2,
+  "key_scale": 0.5,
+  "combined_scales": {
+   "s": 2,
+   "s_k": 1
+  },
+  "selected_keys": [
+   "power consumption",
+   "screen size class",
+   "dynamic contrast ratio",
+   "brightness",
+   "brand",
+   "hdmi inputs",
+   "screen refresh rate",
+   "mount bracket vesa pattern",
+   "maximum resolution",
+   "energy star compliant"
+  ],
+  "key_groups": [
+   [
+    "brand",
+    "brand name"
+   ],
+   [
+    "hdmi inputs",
+    "hdmi"
+   ],
+   [
+    "mount bracket vesa pattern",
+    "vesa"
+   ],
+   [
+    "power consumption",
+    "power consumption watts power on"
+   ],
+   [
+    "screen refresh rate",
+    "refresh rate"
+   ],
+   [
+    "screen size class",
+    "screen size",
+    "display size"
+   ]
+  ],
+  "thresholds": {
+   "title_df_graded": {
+    "500x1": 0.15,
+    "250x2": 0.15,
+    "166x3": 0.15,
+    "125x4": 0.15,
+    "100x5": 0.1,
+    "83x6": 0.15,
+    "71x7": 0.15,
+    "62x8": 0.1,
+    "55x9": 0.1,
+    "50x10": 0.2,
+    "41x12": 0.15,
+    "35x14": 0.2,
+    "31x16": 0.2,
+    "25x20": 0.2
+   },
+   "keys_graded": {
+    "500x1": 0.15,
+    "250x2": 0.15,
+    "166x3": 0.2,
+    "125x4": 0.15,
+    "100x5": 0.2,
+    "83x6": 0.1,
+    "71x7": 0.15,
+    "62x8": 0.1,
+    "55x9": 0.1,
+    "50x10": 0.2,
+    "41x12": 0.05,
+    "35x14": 0.25,
+    "31x16": 0.2,
+    "25x20": 0.1
+   },
+   "combined_graded": {
+    "500x1": 0.15,
+    "250x2": 0.15,
+    "166x3": 0.15,
+    "125x4": 0.15,
+    "100x5": 0.15,
+    "83x6": 0.1,
+    "71x7": 0.15,
+    "62x8": 0.15,
+    "55x9": 0.3,
+    "50x10": 0.15,
+    "41x12": 0.45,
+    "35x14": 0.4,
+    "31x16": 0.3,
+    "25x20": 0.45
+   },
+   "title_mw_plain": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.05,
+    "100x5": 0.15,
+    "83x6": 0.1,
+    "71x7": 0.1,
+    "62x8": 0.1,
+    "55x9": 0.1,
+    "50x10": 0.15,
+    "41x12": 0.2,
+    "35x14": 0.1,
+    "31x16": 0.2,
+    "25x20": 0.15
+   },
+   "no_lsh": {
+    "all pairs": 0.1
+   }
+  },
+  "msm_parameters": {
+   "msmp_msm": {
+    "500x1": {
+     "alpha": 0.6,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "250x2": {
+     "alpha": 0.6,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "166x3": {
+     "alpha": 0.6,
+     "gamma": 1.0,
+     "mu": 0.1,
+     "epsilon": 0.6
+    },
+    "125x4": {
+     "alpha": 0.7,
+     "gamma": 1.0,
+     "mu": 0.1,
+     "epsilon": 0.6
+    },
+    "100x5": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.4,
+     "epsilon": 0.6
+    },
+    "83x6": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.5,
+     "epsilon": 0.6
+    },
+    "71x7": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.8,
+     "epsilon": 0.9
+    },
+    "62x8": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 1.0
+    },
+    "55x9": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "50x10": {
+     "alpha": 0.4,
+     "gamma": 0.8,
+     "mu": 0.7,
+     "epsilon": 0.3
+    },
+    "41x12": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "35x14": {
+     "alpha": 0.0,
+     "gamma": 0.7,
+     "mu": 0.7,
+     "epsilon": 0.3
+    },
+    "31x16": {
+     "alpha": 0.0,
+     "gamma": 0.8,
+     "mu": 0.7,
+     "epsilon": 0.3
+    },
+    "25x20": {
+     "alpha": 0.0,
+     "gamma": 0.7,
+     "mu": 0.7,
+     "epsilon": 0.3
+    }
+   },
+   "msm_all": {
+    "all pairs": {
+     "alpha": 0.6,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    }
+   }
+  }
+ },
+ {
+  "bootstrap": 2,
+  "df_cutoff": 0.3,
+  "df_cutoff_benchmarks": 0.3,
+  "title_scale": 2,
+  "key_scale": 0.5,
+  "combined_scales": {
+   "s": 2,
+   "s_k": 2
+  },
+  "selected_keys": [
+   "power consumption watts power on",
+   "weight",
+   "screen size class",
+   "dynamic contrast ratio",
+   "brightness",
+   "brand",
+   "hdmi inputs",
+   "screen refresh rate",
+   "maximum resolution",
+   "energy star compliant"
+  ],
+  "key_groups": [
+   [
+    "brand",
+    "brand name"
+   ],
+   [
+    "hdmi inputs",
+    "hdmi"
+   ],
+   [
+    "power consumption watts power on",
+    "power consumption"
+   ],
+   [
+    "screen refresh rate",
+    "refresh rate"
+   ],
+   [
+    "screen size class",
+    "screen size",
+    "display size"
+   ],
+   [
+    "weight",
+    "weight with stand",
+    "product weight"
+   ]
+  ],
+  "thresholds": {
+   "title_df_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.1,
+    "100x5": 0.1,
+    "83x6": 0.1,
+    "71x7": 0.15,
+    "62x8": 0.15,
+    "55x9": 0.15,
+    "50x10": 0.1,
+    "41x12": 0.1,
+    "35x14": 0.2,
+    "31x16": 0.1,
+    "25x20": 0.15
+   },
+   "keys_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.2,
+    "100x5": 0.25,
+    "83x6": 0.25,
+    "71x7": 0.25,
+    "62x8": 0.2,
+    "55x9": 0.25,
+    "50x10": 0.2,
+    "41x12": 0.25,
+    "35x14": 0.15,
+    "31x16": 0.05,
+    "25x20": 0.05
+   },
+   "combined_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.1,
+    "100x5": 0.2,
+    "83x6": 0.2,
+    "71x7": 0.2,
+    "62x8": 0.3,
+    "55x9": 0.3,
+    "50x10": 0.3,
+    "41x12": 0.25,
+    "35x14": 0.75,
+    "31x16": 0.3,
+    "25x20": 0.5
+   },
+   "title_mw_plain": {
+    "500x1": 0.15,
+    "250x2": 0.15,
+    "166x3": 0.15,
+    "125x4": 0.1,
+    "100x5": 0.1,
+    "83x6": 0.05,
+    "71x7": 0.1,
+    "62x8": 0.05,
+    "55x9": 0.1,
+    "50x10": 0.1,
+    "41x12": 0.05,
+    "35x14": 0.15,
+    "31x16": 0.1,
+    "25x20": 0.05
+   },
+   "no_lsh": {
+    "all pairs": 0.1
+   }
+  },
+  "msm_parameters": {
+   "msmp_msm": {
+    "500x1": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.5,
+     "epsilon": 0.5
+    },
+    "250x2": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.5,
+     "epsilon": 0.5
+    },
+    "166x3": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.6,
+     "epsilon": 0.5
+    },
+    "125x4": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "100x5": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "83x6": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.5,
+     "epsilon": 0.6
+    },
+    "71x7": {
+     "alpha": 0.8,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.7
+    },
+    "62x8": {
+     "alpha": 0.8,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.8
+    },
+    "55x9": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.8
+    },
+    "50x10": {
+     "alpha": 0.8,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "41x12": {
+     "alpha": 0.0,
+     "gamma": 0.8,
+     "mu": 0.2,
+     "epsilon": 0.7
+    },
+    "35x14": {
+     "alpha": 0.0,
+     "gamma": 0.8,
+     "mu": 0.0,
+     "epsilon": 0.9
+    },
+    "31x16": {
+     "alpha": 0.0,
+     "gamma": 0.8,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "25x20": {
+     "alpha": 0.0,
+     "gamma": 0.7,
+     "mu": 0.4,
+     "epsilon": 0.5
+    }
+   },
+   "msm_all": {
+    "all pairs": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.5,
+     "epsilon": 0.5
+    }
+   }
+  }
+ },
+ {
+  "bootstrap": 3,
+  "df_cutoff": 0.3,
+  "df_cutoff_benchmarks": 0.3,
+  "title_scale": 1,
+  "key_scale": 0.5,
+  "combined_scales": {
+   "s": 1,
+   "s_k": 2
+  },
+  "selected_keys": [
+   "weight",
+   "screen size class",
+   "dynamic contrast ratio",
+   "brightness",
+   "brand",
+   "hdmi inputs",
+   "screen refresh rate",
+   "mount bracket vesa pattern",
+   "maximum resolution",
+   "aspect ratio"
+  ],
+  "key_groups": [
+   [
+    "brand",
+    "brand name"
+   ],
+   [
+    "hdmi inputs",
+    "hdmi"
+   ],
+   [
+    "mount bracket vesa pattern",
+    "vesa"
+   ],
+   [
+    "screen refresh rate",
+    "refresh rate"
+   ],
+   [
+    "screen size class",
+    "screen size",
+    "display size"
+   ],
+   [
+    "weight",
+    "weight with stand",
+    "product weight"
+   ]
+  ],
+  "thresholds": {
+   "title_df_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.1,
+    "100x5": 0.25,
+    "83x6": 0.2,
+    "71x7": 0.25,
+    "62x8": 0.2,
+    "55x9": 0.1,
+    "50x10": 0.2,
+    "41x12": 0.3,
+    "35x14": 0.1,
+    "31x16": 0.15,
+    "25x20": 0.2
+   },
+   "keys_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.15,
+    "125x4": 0.15,
+    "100x5": 0.15,
+    "83x6": 0.15,
+    "71x7": 0.15,
+    "62x8": 0.1,
+    "55x9": 0.1,
+    "50x10": 0.25,
+    "41x12": 0.2,
+    "35x14": 0.1,
+    "31x16": 0.2,
+    "25x20": 0.2
+   },
+   "combined_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.1,
+    "100x5": 0.25,
+    "83x6": 0.25,
+    "71x7": 0.2,
+    "62x8": 0.3,
+    "55x9": 0.35,
+    "50x10": 0.15,
+    "41x12": 0.4,
+    "35x14": 0.2,
+    "31x16": 0.4,
+    "25x20": 0.3
+   },
+   "title_mw_plain": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.1,
+    "100x5": 0.05,
+    "83x6": 0.05,
+    "71x7": 0.05,
+    "62x8": 0.15,
+    "55x9": 0.15,
+    "50x10": 0.1,
+    "41x12": 0.1,
+    "35x14": 0.15,
+    "31x16": 0.15,
+    "25x20": 0.3
+   },
+   "no_lsh": {
+    "all pairs": 0.05
+   }
+  },
+  "msm_parameters": {
+   "msmp_msm": {
+    "500x1": {
+     "alpha": 0.7,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "250x2": {
+     "alpha": 0.7,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "166x3": {
+     "alpha": 0.7,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "125x4": {
+     "alpha": 0.9,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "100x5": {
+     "alpha": 0.6,
+     "gamma": 1.0,
+     "mu": 0.2,
+     "epsilon": 0.7
+    },
+    "83x6": {
+     "alpha": 0.7,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "71x7": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.8
+    },
+    "62x8": {
+     "alpha": 0.0,
+     "gamma": 1.0,
+     "mu": 0.1,
+     "epsilon": 0.8
+    },
+    "55x9": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.8
+    },
+    "50x10": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.8
+    },
+    "41x12": {
+     "alpha": 0.0,
+     "gamma": 0.7,
+     "mu": 0.7,
+     "epsilon": 0.3
+    },
+    "35x14": {
+     "alpha": 0.0,
+     "gamma": 0.8,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "31x16": {
+     "alpha": 0.0,
+     "gamma": 0.6,
+     "mu": 0.2,
+     "epsilon": 0.6
+    },
+    "25x20": {
+     "alpha": 0.6,
+     "gamma": 0.7,
+     "mu": 0.6,
+     "epsilon": 0.3
+    }
+   },
+   "msm_all": {
+    "all pairs": {
+     "alpha": 0.7,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    }
+   }
+  }
+ },
+ {
+  "bootstrap": 4,
+  "df_cutoff": 0.2,
+  "df_cutoff_benchmarks": 0.2,
+  "title_scale": 1,
+  "key_scale": 1,
+  "combined_scales": {
+   "s": 1,
+   "s_k": 1
+  },
+  "selected_keys": [
+   "power consumption",
+   "weight with stand",
+   "dynamic contrast ratio",
+   "screen size class",
+   "brightness",
+   "brand",
+   "hdmi inputs",
+   "screen refresh rate",
+   "maximum resolution",
+   "aspect ratio"
+  ],
+  "key_groups": [
+   [
+    "brand",
+    "brand name"
+   ],
+   [
+    "hdmi inputs",
+    "hdmi"
+   ],
+   [
+    "power consumption",
+    "power consumption watts power on"
+   ],
+   [
+    "screen refresh rate",
+    "refresh rate"
+   ],
+   [
+    "screen size class",
+    "screen size",
+    "meta keywords"
+   ],
+   [
+    "weight with stand",
+    "product weight"
+   ]
+  ],
+  "thresholds": {
+   "title_df_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.1,
+    "100x5": 0.1,
+    "83x6": 0.15,
+    "71x7": 0.1,
+    "62x8": 0.15,
+    "55x9": 0.2,
+    "50x10": 0.15,
+    "41x12": 0.25,
+    "35x14": 0.2,
+    "31x16": 0.1,
+    "25x20": 0.2
+   },
+   "keys_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.1,
+    "100x5": 0.1,
+    "83x6": 0.1,
+    "71x7": 0.25,
+    "62x8": 0.15,
+    "55x9": 0.2,
+    "50x10": 0.05,
+    "41x12": 0.1,
+    "35x14": 0.15,
+    "31x16": 0.55,
+    "25x20": 0.15
+   },
+   "combined_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.1,
+    "100x5": 0.1,
+    "83x6": 0.1,
+    "71x7": 0.15,
+    "62x8": 0.2,
+    "55x9": 0.4,
+    "50x10": 0.45,
+    "41x12": 0.5,
+    "35x14": 0.3,
+    "31x16": 0.05,
+    "25x20": 0.05
+   },
+   "title_mw_plain": {
+    "500x1": 0.05,
+    "250x2": 0.05,
+    "166x3": 0.05,
+    "125x4": 0.05,
+    "100x5": 0.05,
+    "83x6": 0.05,
+    "71x7": 0.1,
+    "62x8": 0.1,
+    "55x9": 0.05,
+    "50x10": 0.15,
+    "41x12": 0.15,
+    "35x14": 0.1,
+    "31x16": 0.2,
+    "25x20": 0.1
+   },
+   "no_lsh": {
+    "all pairs": 0.05
+   }
+  },
+  "msm_parameters": {
+   "msmp_msm": {
+    "500x1": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "250x2": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "166x3": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "125x4": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "100x5": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.2,
+     "epsilon": 0.6
+    },
+    "83x6": {
+     "alpha": 0.5,
+     "gamma": 0.8,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "71x7": {
+     "alpha": 0.8,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.8
+    },
+    "62x8": {
+     "alpha": 0.8,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.8
+    },
+    "55x9": {
+     "alpha": 0.8,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "50x10": {
+     "alpha": 0.8,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "41x12": {
+     "alpha": 0.8,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "35x14": {
+     "alpha": 0.8,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "31x16": {
+     "alpha": 0.0,
+     "gamma": 0.7,
+     "mu": 0.0,
+     "epsilon": 0.9
+    },
+    "25x20": {
+     "alpha": 0.0,
+     "gamma": 0.0,
+     "mu": 0.0,
+     "epsilon": 0.9
+    }
+   },
+   "msm_all": {
+    "all pairs": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    }
+   }
+  }
+ },
+ {
+  "bootstrap": 5,
+  "df_cutoff": 0.2,
+  "df_cutoff_benchmarks": 0.2,
+  "title_scale": 2,
+  "key_scale": 0.5,
+  "combined_scales": {
+   "s": 0.5,
+   "s_k": 0.5
+  },
+  "selected_keys": [
+   "power consumption watts power on",
+   "weight",
+   "screen size class",
+   "dynamic contrast ratio",
+   "brightness",
+   "brand",
+   "hdmi inputs",
+   "screen refresh rate",
+   "maximum resolution",
+   "energy star compliant"
+  ],
+  "key_groups": [
+   [
+    "brand",
+    "brand name"
+   ],
+   [
+    "hdmi inputs",
+    "hdmi"
+   ],
+   [
+    "power consumption watts power on",
+    "power consumption"
+   ],
+   [
+    "screen refresh rate",
+    "refresh rate"
+   ],
+   [
+    "screen size class",
+    "screen size",
+    "display size",
+    "meta keywords"
+   ],
+   [
+    "weight",
+    "weight with stand",
+    "product weight"
+   ]
+  ],
+  "thresholds": {
+   "title_df_graded": {
+    "500x1": 0.15,
+    "250x2": 0.15,
+    "166x3": 0.15,
+    "125x4": 0.15,
+    "100x5": 0.15,
+    "83x6": 0.1,
+    "71x7": 0.1,
+    "62x8": 0.1,
+    "55x9": 0.25,
+    "50x10": 0.1,
+    "41x12": 0.25,
+    "35x14": 0.25,
+    "31x16": 0.2,
+    "25x20": 0.3
+   },
+   "keys_graded": {
+    "500x1": 0.15,
+    "250x2": 0.1,
+    "166x3": 0.15,
+    "125x4": 0.15,
+    "100x5": 0.2,
+    "83x6": 0.1,
+    "71x7": 0.2,
+    "62x8": 0.15,
+    "55x9": 0.2,
+    "50x10": 0.1,
+    "41x12": 0.25,
+    "35x14": 0.3,
+    "31x16": 0.4,
+    "25x20": 0.45
+   },
+   "combined_graded": {
+    "500x1": 0.15,
+    "250x2": 0.15,
+    "166x3": 0.15,
+    "125x4": 0.15,
+    "100x5": 0.2,
+    "83x6": 0.2,
+    "71x7": 0.25,
+    "62x8": 0.25,
+    "55x9": 0.25,
+    "50x10": 0.25,
+    "41x12": 0.35,
+    "35x14": 0.25,
+    "31x16": 0.3,
+    "25x20": 0.5
+   },
+   "title_mw_plain": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.1,
+    "100x5": 0.1,
+    "83x6": 0.1,
+    "71x7": 0.1,
+    "62x8": 0.15,
+    "55x9": 0.05,
+    "50x10": 0.1,
+    "41x12": 0.1,
+    "35x14": 0.1,
+    "31x16": 0.25,
+    "25x20": 0.4
+   },
+   "no_lsh": {
+    "all pairs": 0.15
+   }
+  },
+  "msm_parameters": {
+   "msmp_msm": {
+    "500x1": {
+     "alpha": 0.7,
+     "gamma": 1.0,
+     "mu": 0.5,
+     "epsilon": 0.5
+    },
+    "250x2": {
+     "alpha": 0.7,
+     "gamma": 1.0,
+     "mu": 0.5,
+     "epsilon": 0.5
+    },
+    "166x3": {
+     "alpha": 0.7,
+     "gamma": 1.0,
+     "mu": 0.5,
+     "epsilon": 0.5
+    },
+    "125x4": {
+     "alpha": 0.7,
+     "gamma": 1.0,
+     "mu": 0.5,
+     "epsilon": 0.5
+    },
+    "100x5": {
+     "alpha": 0.8,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.7
+    },
+    "83x6": {
+     "alpha": 0.8,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.7
+    },
+    "71x7": {
+     "alpha": 0.5,
+     "gamma": 1.0,
+     "mu": 0.7,
+     "epsilon": 0.3
+    },
+    "62x8": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.2,
+     "epsilon": 0.7
+    },
+    "55x9": {
+     "alpha": 0.8,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "50x10": {
+     "alpha": 0.8,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "41x12": {
+     "alpha": 0.8,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "35x14": {
+     "alpha": 0.0,
+     "gamma": 1.0,
+     "mu": 0.7,
+     "epsilon": 0.3
+    },
+    "31x16": {
+     "alpha": 0.6,
+     "gamma": 0.7,
+     "mu": 0.1,
+     "epsilon": 0.7
+    },
+    "25x20": {
+     "alpha": 0.0,
+     "gamma": 0.7,
+     "mu": 0.2,
+     "epsilon": 0.6
+    }
+   },
+   "msm_all": {
+    "all pairs": {
+     "alpha": 0.7,
+     "gamma": 1.0,
+     "mu": 0.6,
+     "epsilon": 0.5
+    }
+   }
+  }
+ },
+ {
+  "bootstrap": 6,
+  "df_cutoff": 0.3,
+  "df_cutoff_benchmarks": 0.3,
+  "title_scale": 0.5,
+  "key_scale": 1,
+  "combined_scales": {
+   "s": 1,
+   "s_k": 2
+  },
+  "selected_keys": [
+   "power consumption",
+   "weight",
+   "dynamic contrast ratio",
+   "screen size class",
+   "brand",
+   "hdmi inputs",
+   "screen refresh rate",
+   "mount bracket vesa pattern",
+   "maximum resolution",
+   "energy star compliant"
+  ],
+  "key_groups": [
+   [
+    "brand",
+    "brand name"
+   ],
+   [
+    "hdmi inputs",
+    "hdmi"
+   ],
+   [
+    "mount bracket vesa pattern",
+    "vesa"
+   ],
+   [
+    "power consumption",
+    "power consumption watts power on"
+   ],
+   [
+    "screen refresh rate",
+    "refresh rate"
+   ],
+   [
+    "screen size class",
+    "screen size",
+    "display size"
+   ],
+   [
+    "weight",
+    "weight with stand",
+    "product weight"
+   ]
+  ],
+  "thresholds": {
+   "title_df_graded": {
+    "500x1": 0.1,
+    "250x2": 0.15,
+    "166x3": 0.1,
+    "125x4": 0.1,
+    "100x5": 0.1,
+    "83x6": 0.1,
+    "71x7": 0.1,
+    "62x8": 0.1,
+    "55x9": 0.1,
+    "50x10": 0.2,
+    "41x12": 0.15,
+    "35x14": 0.3,
+    "31x16": 0.25,
+    "25x20": 0.15
+   },
+   "keys_graded": {
+    "500x1": 0.1,
+    "250x2": 0.15,
+    "166x3": 0.1,
+    "125x4": 0.1,
+    "100x5": 0.1,
+    "83x6": 0.1,
+    "71x7": 0.2,
+    "62x8": 0.2,
+    "55x9": 0.25,
+    "50x10": 0.3,
+    "41x12": 0.1,
+    "35x14": 0.2,
+    "31x16": 0.15,
+    "25x20": 0.1
+   },
+   "combined_graded": {
+    "500x1": 0.15,
+    "250x2": 0.15,
+    "166x3": 0.1,
+    "125x4": 0.15,
+    "100x5": 0.15,
+    "83x6": 0.15,
+    "71x7": 0.15,
+    "62x8": 0.2,
+    "55x9": 0.25,
+    "50x10": 0.2,
+    "41x12": 0.5,
+    "35x14": 0.2,
+    "31x16": 0.3,
+    "25x20": 0.5
+   },
+   "title_mw_plain": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.1,
+    "100x5": 0.1,
+    "83x6": 0.1,
+    "71x7": 0.1,
+    "62x8": 0.05,
+    "55x9": 0.3,
+    "50x10": 0.1,
+    "41x12": 0.1,
+    "35x14": 0.05,
+    "31x16": 0.15,
+    "25x20": 0.4
+   },
+   "no_lsh": {
+    "all pairs": 0.05
+   }
+  },
+  "msm_parameters": {
+   "msmp_msm": {
+    "500x1": {
+     "alpha": 0.9,
+     "gamma": 1.0,
+     "mu": 0.5,
+     "epsilon": 0.5
+    },
+    "250x2": {
+     "alpha": 0.9,
+     "gamma": 1.0,
+     "mu": 0.5,
+     "epsilon": 0.5
+    },
+    "166x3": {
+     "alpha": 0.9,
+     "gamma": 1.0,
+     "mu": 0.5,
+     "epsilon": 0.5
+    },
+    "125x4": {
+     "alpha": 0.7,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "100x5": {
+     "alpha": 0.7,
+     "gamma": 1.0,
+     "mu": 0.2,
+     "epsilon": 0.6
+    },
+    "83x6": {
+     "alpha": 0.6,
+     "gamma": 1.0,
+     "mu": 0.2,
+     "epsilon": 0.6
+    },
+    "71x7": {
+     "alpha": 0.6,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "62x8": {
+     "alpha": 0.6,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "55x9": {
+     "alpha": 0.6,
+     "gamma": 1.0,
+     "mu": 0.1,
+     "epsilon": 1.0
+    },
+    "50x10": {
+     "alpha": 0.0,
+     "gamma": 1.0,
+     "mu": 0.2,
+     "epsilon": 0.7
+    },
+    "41x12": {
+     "alpha": 0.0,
+     "gamma": 0.8,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "35x14": {
+     "alpha": 0.0,
+     "gamma": 1.0,
+     "mu": 0.2,
+     "epsilon": 0.7
+    },
+    "31x16": {
+     "alpha": 0.0,
+     "gamma": 0.7,
+     "mu": 0.0,
+     "epsilon": 0.8
+    },
+    "25x20": {
+     "alpha": 0.0,
+     "gamma": 0.8,
+     "mu": 0.0,
+     "epsilon": 0.8
+    }
+   },
+   "msm_all": {
+    "all pairs": {
+     "alpha": 0.9,
+     "gamma": 1.0,
+     "mu": 0.5,
+     "epsilon": 0.5
+    }
+   }
+  }
+ },
+ {
+  "bootstrap": 7,
+  "df_cutoff": 0.3,
+  "df_cutoff_benchmarks": 0.3,
+  "title_scale": 2,
+  "key_scale": 0.5,
+  "combined_scales": {
+   "s": 1,
+   "s_k": 2
+  },
+  "selected_keys": [
+   "power consumption",
+   "screen size class",
+   "dynamic contrast ratio",
+   "brightness",
+   "brand",
+   "screen refresh rate",
+   "hdmi inputs",
+   "mount bracket vesa pattern",
+   "maximum resolution",
+   "energy star compliant"
+  ],
+  "key_groups": [
+   [
+    "brand",
+    "brand name"
+   ],
+   [
+    "hdmi inputs",
+    "hdmi"
+   ],
+   [
+    "mount bracket vesa pattern",
+    "vesa"
+   ],
+   [
+    "power consumption",
+    "power consumption watts power on"
+   ],
+   [
+    "screen refresh rate",
+    "refresh rate"
+   ],
+   [
+    "screen size class",
+    "screen size",
+    "meta description",
+    "display size",
+    "meta keywords"
+   ]
+  ],
+  "thresholds": {
+   "title_df_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.15,
+    "100x5": 0.1,
+    "83x6": 0.15,
+    "71x7": 0.3,
+    "62x8": 0.1,
+    "55x9": 0.15,
+    "50x10": 0.15,
+    "41x12": 0.1,
+    "35x14": 0.35,
+    "31x16": 0.2,
+    "25x20": 0.35
+   },
+   "keys_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.15,
+    "100x5": 0.15,
+    "83x6": 0.25,
+    "71x7": 0.15,
+    "62x8": 0.1,
+    "55x9": 0.15,
+    "50x10": 0.1,
+    "41x12": 0.45,
+    "35x14": 0.4,
+    "31x16": 0.35,
+    "25x20": 0.25
+   },
+   "combined_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.15,
+    "100x5": 0.1,
+    "83x6": 0.2,
+    "71x7": 0.1,
+    "62x8": 0.15,
+    "55x9": 0.1,
+    "50x10": 0.3,
+    "41x12": 0.3,
+    "35x14": 0.35,
+    "31x16": 0.35,
+    "25x20": 0.5
+   },
+   "title_mw_plain": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.1,
+    "100x5": 0.1,
+    "83x6": 0.1,
+    "71x7": 0.1,
+    "62x8": 0.1,
+    "55x9": 0.05,
+    "50x10": 0.05,
+    "41x12": 0.15,
+    "35x14": 0.1,
+    "31x16": 0.2,
+    "25x20": 0.15
+   },
+   "no_lsh": {
+    "all pairs": 0.1
+   }
+  },
+  "msm_parameters": {
+   "msmp_msm": {
+    "500x1": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.6,
+     "epsilon": 0.5
+    },
+    "250x2": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.6,
+     "epsilon": 0.5
+    },
+    "166x3": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.6,
+     "epsilon": 0.5
+    },
+    "125x4": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.9,
+     "epsilon": 0.4
+    },
+    "100x5": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.6,
+     "epsilon": 0.5
+    },
+    "83x6": {
+     "alpha": 0.6,
+     "gamma": 1.0,
+     "mu": 0.8,
+     "epsilon": 0.6
+    },
+    "71x7": {
+     "alpha": 0.6,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "62x8": {
+     "alpha": 0.7,
+     "gamma": 1.0,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "55x9": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "50x10": {
+     "alpha": 0.5,
+     "gamma": 0.8,
+     "mu": 0.7,
+     "epsilon": 0.3
+    },
+    "41x12": {
+     "alpha": 0.5,
+     "gamma": 0.7,
+     "mu": 0.7,
+     "epsilon": 0.3
+    },
+    "35x14": {
+     "alpha": 0.0,
+     "gamma": 0.8,
+     "mu": 0.0,
+     "epsilon": 0.9
+    },
+    "31x16": {
+     "alpha": 0.0,
+     "gamma": 0.8,
+     "mu": 0.0,
+     "epsilon": 1.0
+    },
+    "25x20": {
+     "alpha": 0.0,
+     "gamma": 0.1,
+     "mu": 0.0,
+     "epsilon": 0.9
+    }
+   },
+   "msm_all": {
+    "all pairs": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.6,
+     "epsilon": 0.5
+    }
+   }
+  }
+ },
+ {
+  "bootstrap": 8,
+  "df_cutoff": 0.3,
+  "df_cutoff_benchmarks": 0.3,
+  "title_scale": 1,
+  "key_scale": 0.5,
+  "combined_scales": {
+   "s": 1,
+   "s_k": 1
+  },
+  "selected_keys": [
+   "power consumption",
+   "weight",
+   "dynamic contrast ratio",
+   "screen size",
+   "brightness",
+   "brand",
+   "hdmi inputs",
+   "screen refresh rate",
+   "mount bracket vesa pattern",
+   "maximum resolution"
+  ],
+  "key_groups": [
+   [
+    "brand",
+    "brand name"
+   ],
+   [
+    "hdmi inputs",
+    "hdmi"
+   ],
+   [
+    "mount bracket vesa pattern",
+    "vesa"
+   ],
+   [
+    "power consumption",
+    "power consumption watts power on"
+   ],
+   [
+    "screen refresh rate",
+    "refresh rate"
+   ],
+   [
+    "screen size",
+    "screen size class",
+    "display size"
+   ],
+   [
+    "weight",
+    "weight with stand",
+    "product weight"
+   ]
+  ],
+  "thresholds": {
+   "title_df_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.1,
+    "100x5": 0.1,
+    "83x6": 0.1,
+    "71x7": 0.1,
+    "62x8": 0.05,
+    "55x9": 0.05,
+    "50x10": 0.05,
+    "41x12": 0.05,
+    "35x14": 0.05,
+    "31x16": 0.05,
+    "25x20": 0.05
+   },
+   "keys_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.15,
+    "100x5": 0.15,
+    "83x6": 0.1,
+    "71x7": 0.1,
+    "62x8": 0.1,
+    "55x9": 0.05,
+    "50x10": 0.25,
+    "41x12": 0.05,
+    "35x14": 0.05,
+    "31x16": 0.05,
+    "25x20": 0.1
+   },
+   "combined_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.1,
+    "100x5": 0.15,
+    "83x6": 0.1,
+    "71x7": 0.1,
+    "62x8": 0.15,
+    "55x9": 0.25,
+    "50x10": 0.25,
+    "41x12": 0.3,
+    "35x14": 0.05,
+    "31x16": 0.85,
+    "25x20": 0.55
+   },
+   "title_mw_plain": {
+    "500x1": 0.1,
+    "250x2": 0.15,
+    "166x3": 0.05,
+    "125x4": 0.05,
+    "100x5": 0.05,
+    "83x6": 0.05,
+    "71x7": 0.05,
+    "62x8": 0.05,
+    "55x9": 0.05,
+    "50x10": 0.1,
+    "41x12": 0.05,
+    "35x14": 0.25,
+    "31x16": 0.05,
+    "25x20": 0.2
+   },
+   "no_lsh": {
+    "all pairs": 0.05
+   }
+  },
+  "msm_parameters": {
+   "msmp_msm": {
+    "500x1": {
+     "alpha": 0.9,
+     "gamma": 1.0,
+     "mu": 0.6,
+     "epsilon": 0.5
+    },
+    "250x2": {
+     "alpha": 0.9,
+     "gamma": 1.0,
+     "mu": 0.6,
+     "epsilon": 0.5
+    },
+    "166x3": {
+     "alpha": 0.9,
+     "gamma": 1.0,
+     "mu": 0.5,
+     "epsilon": 0.5
+    },
+    "125x4": {
+     "alpha": 0.9,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "100x5": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "83x6": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "71x7": {
+     "alpha": 0.8,
+     "gamma": 1.0,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "62x8": {
+     "alpha": 0.5,
+     "gamma": 1.0,
+     "mu": 0.2,
+     "epsilon": 0.7
+    },
+    "55x9": {
+     "alpha": 0.0,
+     "gamma": 1.0,
+     "mu": 0.0,
+     "epsilon": 0.9
+    },
+    "50x10": {
+     "alpha": 0.0,
+     "gamma": 1.0,
+     "mu": 0.0,
+     "epsilon": 0.9
+    },
+    "41x12": {
+     "alpha": 0.5,
+     "gamma": 1.0,
+     "mu": 0.2,
+     "epsilon": 0.7
+    },
+    "35x14": {
+     "alpha": 0.0,
+     "gamma": 1.0,
+     "mu": 0.0,
+     "epsilon": 0.9
+    },
+    "31x16": {
+     "alpha": 0.0,
+     "gamma": 0.7,
+     "mu": 0.0,
+     "epsilon": 0.9
+    },
+    "25x20": {
+     "alpha": 0.0,
+     "gamma": 0.7,
+     "mu": 0.0,
+     "epsilon": 0.9
+    }
+   },
+   "msm_all": {
+    "all pairs": {
+     "alpha": 0.9,
+     "gamma": 1.0,
+     "mu": 0.6,
+     "epsilon": 0.5
+    }
+   }
+  }
+ },
+ {
+  "bootstrap": 9,
+  "df_cutoff": 0.3,
+  "df_cutoff_benchmarks": 0.3,
+  "title_scale": 0.5,
+  "key_scale": 0.5,
+  "combined_scales": {
+   "s": 1,
+   "s_k": 1
+  },
+  "selected_keys": [
+   "power consumption watts power on",
+   "weight",
+   "dynamic contrast ratio",
+   "screen size class",
+   "brightness",
+   "brand",
+   "hdmi inputs",
+   "screen refresh rate",
+   "mount bracket vesa pattern",
+   "maximum resolution"
+  ],
+  "key_groups": [
+   [
+    "brand",
+    "brand name"
+   ],
+   [
+    "hdmi inputs",
+    "hdmi"
+   ],
+   [
+    "mount bracket vesa pattern",
+    "vesa"
+   ],
+   [
+    "power consumption watts power on",
+    "power consumption"
+   ],
+   [
+    "screen refresh rate",
+    "refresh rate"
+   ],
+   [
+    "screen size class",
+    "screen size",
+    "display size"
+   ],
+   [
+    "weight",
+    "weight with stand",
+    "product weight"
+   ]
+  ],
+  "thresholds": {
+   "title_df_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.1,
+    "100x5": 0.2,
+    "83x6": 0.15,
+    "71x7": 0.25,
+    "62x8": 0.2,
+    "55x9": 0.15,
+    "50x10": 0.2,
+    "41x12": 0.1,
+    "35x14": 0.25,
+    "31x16": 0.15,
+    "25x20": 0.25
+   },
+   "keys_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.25,
+    "100x5": 0.25,
+    "83x6": 0.3,
+    "71x7": 0.3,
+    "62x8": 0.2,
+    "55x9": 0.25,
+    "50x10": 0.15,
+    "41x12": 0.4,
+    "35x14": 0.05,
+    "31x16": 0.35,
+    "25x20": 0.05
+   },
+   "combined_graded": {
+    "500x1": 0.1,
+    "250x2": 0.1,
+    "166x3": 0.1,
+    "125x4": 0.15,
+    "100x5": 0.2,
+    "83x6": 0.2,
+    "71x7": 0.25,
+    "62x8": 0.15,
+    "55x9": 0.15,
+    "50x10": 0.1,
+    "41x12": 0.15,
+    "35x14": 0.35,
+    "31x16": 0.3,
+    "25x20": 0.65
+   },
+   "title_mw_plain": {
+    "500x1": 0.2,
+    "250x2": 0.2,
+    "166x3": 0.15,
+    "125x4": 0.05,
+    "100x5": 0.15,
+    "83x6": 0.15,
+    "71x7": 0.05,
+    "62x8": 0.05,
+    "55x9": 0.05,
+    "50x10": 0.15,
+    "41x12": 0.3,
+    "35x14": 0.1,
+    "31x16": 0.15,
+    "25x20": 0.15
+   },
+   "no_lsh": {
+    "all pairs": 0.05
+   }
+  },
+  "msm_parameters": {
+   "msmp_msm": {
+    "500x1": {
+     "alpha": 0.9,
+     "gamma": 1.0,
+     "mu": 0.6,
+     "epsilon": 0.5
+    },
+    "250x2": {
+     "alpha": 0.9,
+     "gamma": 1.0,
+     "mu": 0.6,
+     "epsilon": 0.5
+    },
+    "166x3": {
+     "alpha": 0.9,
+     "gamma": 1.0,
+     "mu": 0.6,
+     "epsilon": 0.5
+    },
+    "125x4": {
+     "alpha": 0.9,
+     "gamma": 1.0,
+     "mu": 0.6,
+     "epsilon": 0.5
+    },
+    "100x5": {
+     "alpha": 0.9,
+     "gamma": 1.0,
+     "mu": 0.6,
+     "epsilon": 0.5
+    },
+    "83x6": {
+     "alpha": 0.6,
+     "gamma": 0.8,
+     "mu": 0.6,
+     "epsilon": 0.6
+    },
+    "71x7": {
+     "alpha": 0.8,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "62x8": {
+     "alpha": 0.8,
+     "gamma": 0.8,
+     "mu": 0.1,
+     "epsilon": 0.9
+    },
+    "55x9": {
+     "alpha": 0.7,
+     "gamma": 0.8,
+     "mu": 0.5,
+     "epsilon": 0.9
+    },
+    "50x10": {
+     "alpha": 0.0,
+     "gamma": 0.8,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "41x12": {
+     "alpha": 0.0,
+     "gamma": 0.8,
+     "mu": 0.7,
+     "epsilon": 0.3
+    },
+    "35x14": {
+     "alpha": 0.0,
+     "gamma": 0.8,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "31x16": {
+     "alpha": 0.0,
+     "gamma": 0.8,
+     "mu": 0.3,
+     "epsilon": 0.6
+    },
+    "25x20": {
+     "alpha": 0.0,
+     "gamma": 0.0,
+     "mu": 0.7,
+     "epsilon": 0.3
+    }
+   },
+   "msm_all": {
+    "all pairs": {
+     "alpha": 0.9,
+     "gamma": 1.0,
+     "mu": 0.6,
+     "epsilon": 0.5
+    }
+   }
+  }
+ }
+]

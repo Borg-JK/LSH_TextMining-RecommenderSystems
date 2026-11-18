@@ -1,0 +1,15 @@
+block,setting,role,candidates,PC,PQ,F1*,F1
+One index (title + keys),25x20,strictest,3,0.039,0.743,0.073,0.067
+One index (title + keys),62x8,best F1*,59,0.336,0.34,0.328,0.429
+One index (title + keys),250x2,best F1,8539,0.966,0.006,0.013,0.62
+One index (title + keys),500x1,loosest,13714,0.968,0.004,0.008,0.619
+"All pairs, no LSH",Classifier,all pairs,182324,1.0,0.0,0.001,0.6
+"All pairs, no LSH",MSM,all pairs,182324,1.0,0.0,0.001,0.352
+MSMP with our classifier,25x20,strictest,106,0.087,0.046,0.06,0.118
+MSMP with our classifier,31x16,best F1*,183,0.152,0.046,0.071,0.218
+MSMP with our classifier,250x2,best F1,112536,0.991,0.0,0.001,0.613
+MSMP with our classifier,500x1,loosest,115410,0.991,0.0,0.001,0.61
+MSMP with MSM,25x20,strictest,106,0.087,0.046,0.06,0.12
+MSMP with MSM,31x16,best F1*,183,0.152,0.046,0.071,0.202
+MSMP with MSM,62x8,best F1,1522,0.492,0.017,0.034,0.432
+MSMP with MSM,500x1,loosest,115410,0.991,0.0,0.001,0.355

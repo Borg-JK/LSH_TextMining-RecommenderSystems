@@ -1,0 +1,17 @@
+method,name,fraction,n_bootstraps,f1_mean,f1_sd,pc_mean,pc_sd
+title_df_graded,Title index,0.001,10,0.441,0.0618,0.4013,0.06
+title_df_graded,Title index,0.005,10,0.5675,0.0495,0.7352,0.0469
+title_df_graded,Title index,0.01,10,0.6015,0.0463,0.85,0.045
+title_df_graded,Title index,0.02,10,0.6161,0.056,0.9287,0.033
+keys_graded,Key index,0.001,10,0.5126,0.0779,0.4499,0.0941
+keys_graded,Key index,0.005,10,0.6167,0.0658,0.6806,0.051
+keys_graded,Key index,0.01,10,0.6465,0.0517,0.7693,0.0385
+keys_graded,Key index,0.02,10,0.6452,0.0555,0.86,0.0402
+combined_graded,One index (title + keys),0.001,10,0.5475,0.0368,0.5572,0.0658
+combined_graded,One index (title + keys),0.005,10,0.611,0.0538,0.8256,0.0624
+combined_graded,One index (title + keys),0.01,10,0.62,0.0519,0.9062,0.0406
+combined_graded,One index (title + keys),0.02,10,0.6199,0.0575,0.9489,0.0258
+title_mw_plain,MSMP,0.001,10,0.2199,0.0535,0.1538,0.044
+title_mw_plain,MSMP,0.005,10,0.4111,0.0647,0.3894,0.0662
+title_mw_plain,MSMP,0.01,10,0.4988,0.0584,0.5235,0.0457
+title_mw_plain,MSMP,0.02,10,0.5508,0.0606,0.6444,0.0508
